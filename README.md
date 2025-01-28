@@ -3,6 +3,7 @@
 ## Project Overview
 The **Disinformation Classifier** is a machine-learning-based text classification system designed to distinguish between disinformation and factual statements. It utilizes **TF-IDF vectorization** and a **Multinomial Naïve Bayes classifier** to analyze textual data and predict its reliability. 
 
+
 ## Technologies Used
 - **Python** (pandas, scikit-learn, NumPy)
 - **Machine Learning** (Naïve Bayes Classifier)
@@ -11,6 +12,7 @@ The **Disinformation Classifier** is a machine-learning-based text classificatio
 
 ---
 ## Approach & Process
+
 
 ### **1. Data Collection & Preprocessing**
 - The dataset was loaded from `data.csv`.
@@ -23,6 +25,7 @@ The **Disinformation Classifier** is a machine-learning-based text classificatio
   - The dataset contained unexpected header misalignment.
   - Some rows had formatting errors that required manual fixes.
 
+
 ### **2. Exploratory Data Analysis (EDA)**
 - We checked class distributions using:
   ```python
@@ -31,6 +34,7 @@ The **Disinformation Classifier** is a machine-learning-based text classificatio
 - We ensured balanced training/testing sets using stratified sampling.
 - **Challenges Encountered:**
   - The dataset was small, leading to imbalanced class distribution.
+
 
 ### **3. Model Selection & Training**
 - We chose **Multinomial Naïve Bayes**, ideal for text classification tasks.
