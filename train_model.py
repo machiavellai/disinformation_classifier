@@ -33,7 +33,8 @@ df = df.dropna(subset=['Label'])  # Drop rows where Label is NaN
 df['Label'] = df['Label'].astype(int)  # Convert Label to integer
 
 # Check class distribution
-print("Class distribution:",df['Label'].value_counts() )
+class_counts = df['Label'].value_counts()
+print("Class distribution:", )
 
 
 # Determine the appropriate number of splits for cross-validation
