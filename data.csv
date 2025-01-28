@@ -1,0 +1,13 @@
+Simplified Dataset:,
+,
+,
+Text,Label
+"""Vaccines cause autism, despite evidence to the contrary.""",1
+"""COVID-19 vaccines are safe and effective.""",0
+"""Climate change is a hoax propagated by scientists.""",1
+"""Scientific evidence supports climate change.""",0
+"""5G networks spread COVID-19.""",1
+"""There is no evidence linking 5G to COVID-19.""",0
+,
+LabelÊ1: Disinformation (fake),
+LabelÊ0: Genuine information (real),
